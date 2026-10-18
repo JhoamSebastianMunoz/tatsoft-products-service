@@ -65,8 +65,8 @@ El proyecto sigue una arquitectura en capas que separa las responsabilidades de 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/JhoamSebastianMunoz/microservice_backend_products.git
-cd microservice_backend_products
+git clone https://github.com/JhoamSebastianMunoz/tatsoft-products-service.git
+cd tatsoft-products-service
 ```
 
 ### 2. Instalar dependencias
@@ -216,7 +216,7 @@ Las especificaciones se definen en [`swagger.yaml`](./swagger.yaml).
 ## Estructura del Proyecto
 
 ```
-microservice_backend_products/
+tatsoft-products-service/
 ├── app.ts                      # Punto de entrada y montaje de rutas
 ├── config/                     # Conexión a MySQL y Azure Blob Storage
 ├── controllers/                # Manejo de peticiones HTTP por dominio
